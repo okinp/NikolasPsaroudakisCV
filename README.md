@@ -1,4 +1,6 @@
-# cv-vue
+# NikolasPsaroudakisCV
+CSS based Curriculum Vitae that prints nicely to pdf. Content is read from JSON
+Example: https://nikolaspsaroudakis.com/assets/NikolasPsaroudakisCV.pdf
 
 ## Project setup
 ```
