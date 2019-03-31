@@ -82,12 +82,12 @@ $color-light: lighten($color, 10%);
   margin: 6px 0;
   span.tag {
     box-sizing: border-box;
-    padding: 2px 3px;
+    padding: 1px 2px;
     margin-right: 5px;
     border-radius: 3px;
     color: $color-dark;
     background-color: lighten($color-light, 50%);
-    border: 1px solid lighten($color-light, 35%);
+    border: 1px solid lighten($color-light, 42%);
     border-radius: 3px;
     font-size: 10px;
     text-transform: uppercase;

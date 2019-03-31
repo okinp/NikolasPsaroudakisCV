@@ -6,12 +6,12 @@
       <ul class="contact">
         <li>www.nikolaspsaroudakis.com</li>
         <li>psaroudakis@gmail.com</li>
-        <li>(+30)6945297001</li>
+        <li>(+30) 6945297001</li>
       </ul>
     </header>
     <cv-section :sectionData="cvdata.sections[0]" />
     <cv-section :sectionData="cvdata.sections[1]" />
-        <cv-skills-matrix :dataProp="cvdata.skills" class="breakProper"/>
+    <cv-skills-matrix :dataProp="cvdata.skills" class="breakProper"/>
     <cv-section :sectionData="cvdata.sections[2]" class="breakProper" />
     <cv-section :sectionData="cvdata.sections[3]" class="breakProper" />
   </div>
@@ -36,9 +36,10 @@ export default {
 <style lang="scss">
   .breakProper {
       page-break-before: auto;
-      page-break-after: avoid;
+      page-break-after: auto;
       page-break-inside: avoid;
   }
+  
 </style>
 <style lang="scss" scoped>
 $color: #4d5357;
