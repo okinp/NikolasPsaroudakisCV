@@ -33,7 +33,7 @@
           "date": "Jul. 2018 - Present",
           "title": "Senior Front-End Engineer",
           "organization": "11888 giaola, Athens, GR",
-          "extra": "During my time at giaola I led the transition from Grunt to Webpack, introduced StorybookJS and created from scratch Giaola Components using VueJS and the principles of atomic design.",
+          "extra": "During my time at giaola I led the transition from Grunt to Webpack, introduced StorybookJS and created Giaola Components from scratch, using VueJS and atomic design.",
           "tags": [
             "ES6+",
             "JS",
