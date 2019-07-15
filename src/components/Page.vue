@@ -1,7 +1,10 @@
 <template>
   <div class="page">
     <header>
-      <p class="name">Nikolas<br />Psaroudakis</p>
+      <p class="name">
+        Nikolas
+        <br />Psaroudakis
+      </p>
       <p />
       <ul class="contact">
         <li>www.nikolaspsaroudakis.com</li>
@@ -11,9 +14,9 @@
     </header>
     <cv-section :sectionData="cvdata.sections[0]" />
     <cv-section :sectionData="cvdata.sections[1]" />
-    <cv-skills-matrix :dataProp="cvdata.skills" class="breakProper"/>
-    <cv-section :sectionData="cvdata.sections[2]" class="breakProper" />
-    <cv-section :sectionData="cvdata.sections[3]" class="breakProper" />
+    <cv-skills-matrix :dataProp="cvdata.skills" />
+    <cv-section :sectionData="cvdata.sections[2]" />
+    <cv-section :sectionData="cvdata.sections[3]" />
   </div>
 </template>
 
@@ -24,22 +27,22 @@ import CvSkillsMatrix from "./CvSkillsMatrix";
 export default {
   name: "page",
   components: {
-    CvSection, CvSkillsMatrix
+    CvSection,
+    CvSkillsMatrix
   },
   data() {
     return {
-      cvdata: cvdata,
+      cvdata: cvdata
     };
   }
 };
 </script>
 <style lang="scss">
-  .breakProper {
-      page-break-before: auto;
-      page-break-after: auto;
-      page-break-inside: avoid;
-  }
-  
+.breakProper {
+  page-break-before: auto;
+  page-break-after: auto;
+  page-break-inside: avoid;
+}
 </style>
 <style lang="scss" scoped>
 $color: #4d5357;
@@ -91,7 +94,6 @@ body {
       font-size: 0.7em;
     }
   }
-
 }
 
 @page {
@@ -115,7 +117,7 @@ body {
     min-height: initial;
     box-shadow: initial;
     background: initial;
-    page-break-after: always;
+    break-after: avoid;
   }
 }
 </style>
