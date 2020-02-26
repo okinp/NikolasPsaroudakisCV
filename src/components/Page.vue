@@ -123,7 +123,7 @@ body {
     min-height: initial;
     box-shadow: initial;
     background: initial;
-    page-break-after: always;
+    break-after: avoid;
   }
 }
 </style>

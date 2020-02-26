@@ -9,7 +9,9 @@
           <div v-if="entry.organization">{{ entry.organization }}</div>
           <span v-if="entry.extra">{{ entry.extra }}</span>
           <div class="tags" v-if="entry.tags">
-            <span class="tag" v-for="(tag, tIdx) in entry.tags" :key="tIdx">{{ tag }}</span>
+            <span class="tag" v-for="(tag, tIdx) in entry.tags" :key="tIdx">{{
+              tag
+            }}</span>
           </div>
         </div>
       </li>

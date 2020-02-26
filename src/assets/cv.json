@@ -45,7 +45,7 @@
             "ES6+",
             "Storybook",
             "VueJS",
-            "VueX",
+            "Vuex",
             "HTML5",
             "CSS3",
             "SCSS",
@@ -277,8 +277,12 @@
         "score": 4
       },
       {
-        "label": "ThreeJS",
+        "label": "VueJS",
         "score": 4
+      },
+      {
+        "label": "ThreeJS",
+        "score": 3
       },
       {
         "label": "C++",
@@ -287,10 +291,6 @@
       {
         "label": "OpenGL",
         "score": 3.5
-      },
-      {
-        "label": "PHP",
-        "score": 3
       },
       {
         "label": "Cinder",
