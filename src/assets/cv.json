@@ -1,317 +1,349 @@
 {
-  "sections": [
-    {
-      "label": "Education",
-      "entries": [
+    "sections": [
         {
-          "date": "May 2011",
-          "title": "MPS, Interactive Telecommunications",
-          "organization": "Tisch School of the Arts, NYU, USA",
-          "extra": "Focus: Creative Coding, Interactive Installations, Physical Computing, Media Art",
-          "tags": ["C++", "OpenGL"]
+            "label": "Education",
+            "entries": [
+                {
+                    "date": "May 2011",
+                    "title": "MPS, Interactive Telecommunications",
+                    "organization": "Tisch School of the Arts, NYU, USA",
+                    "extra": "Focus: Creative Coding, Interactive Installations, Physical Computing, Media Art",
+                    "tags": []
+                },
+                {
+                    "date": "Jun. 2001",
+                    "title": "MSc. by Research, Physics",
+                    "organization": "SPS, University of Kent, UK",
+                    "extra": "Thesis: Human Face Detection in Color Images Using Gaussian Scale-Space Theory and Hidden Markov Models",
+                    "tags": []
+                },
+                {
+                    "date": "Jun. 1999",
+                    "title": "BSc., Physics with Optoelectronics",
+                    "organization": "SPS, University of Kent, UK",
+                    "extra": "Thesis: Experimental Analysis of Photographic Shutters and Flash Synchronization in Commercial Cameras",
+                    "tags": []
+                }
+            ]
         },
         {
-          "date": "Jun. 2001",
-          "title": "MSc. by Research, Physics",
-          "organization": "SPS, University of Kent, UK",
-          "extra": "Thesis: Human Face Detection in Color Images Using Gaussian Scale-Space Theory and Hidden Markov Models",
-          "tags": []
+            "label": "Experience",
+            "entries": [
+                {
+                    "date": "May 2020 - present",
+                    "title": "Senior Front-End Engineer",
+                    "organization": "Learnworlds, Athens, GR ",
+                    "extra": "At Learnworlds, I mainly focus on fixing bugs and issues related to the front-end architecture & performance of an upcoming version of a core product.",
+                    "tags": [
+                        "ES6+",
+                        "Webpack",
+                        "VueJS",
+                        "VueX",
+                        "HTML5",
+                        "CSS3",
+                        "LESS"
+                    ]
+                },
+                {
+                    "date": "Nov. 2019 - Apr. 2020",
+                    "title": "Senior Front-End Engineer",
+                    "organization": "Goodfellas, Athens, GR",
+                    "extra": "Freelanced for a few projects of Good Fellas, including the redesigned CallistaCrafts.com website, where I created from scratch the custom interface. At Good Fellas, I really enjoyed experimenting with WebGL-based visual effects synced to the DOM, using ThreeJS.",
+                    "tags": [
+                        "Vanilla JS",
+                        "THREEJS",
+                        "ES6+",
+                        "Webpack",
+                        "HTML5",
+                        "CSS3",
+                        "SCSS"
+                    ]
+                },
+                {
+                    "date": "Jul. 2018 - Oct. 2019",
+                    "title": "Senior Front-End Engineer",
+                    "organization": "11888 giaola, Athens, GR",
+                    "extra": "I led the transition from Grunt to Webpack, introduced StorybookJS and created from scratch the Giaola UI Components kit, using VueJS, SCSS and the principles of atomic design. At Giaola, I single-handedly implemented the front-end of new verticals with advanced UI requirements, while keeping the components library DRY and on par with the designs.",
+                    "tags": [
+                        "ES6+",
+                        "Storybook",
+                        "VueJS",
+                        "Vuex",
+                        "HTML5",
+                        "CSS3",
+                        "SCSS",
+                        "Webpack"
+                    ]
+                },
+                {
+                    "date": "Apr. 2017 - Mar. 2018",
+                    "title": "Founder & Technical Director",
+                    "organization": "BlockLicense, Athens, GR",
+                    "extra": "BlockLicense was a startup incubated at Eurobank's EGG program aiming to revolutionalize the way digital works are licensed by embedding the creator's license into media assets without affecting their functionality. An MVP was created that allowed creators to embed complex licensing and revenue sharing flows, while allowing buyers to instantaneously buy a license for the desired work. At BlockLicense, I single-handedly created the MVP using VueJS, Electron, Adobe XMP and smart Ethereum Blockchain contracts.",
+                    "tags": [
+                        "Ethereum",
+                        "Blockchain",
+                        "Solidity",
+                        "VueJS",
+                        "HTML5",
+                        "SCSS",
+                        "VUEX",
+                        "ES6+",
+                        "Webpack",
+                        "Electron"
+                    ]
+                },
+                {
+                    "date": "Jun. 2016 - Mar. 2017",
+                    "title": "Creative Coder & Maker",
+                    "organization": "The Office for Experimental Media, Athens, GR",
+                    "extra": "Self Employed - I  collaborated with a few interactive media artists, creating custom electronics and software that brought their works to life. By sensing the environment and controlling audio visual equipment, rich experiences were created such as video projections with interactive real-time graphics.",
+                    "tags": ["C++", "OpenGL", "Cinder", "Arduino", "OpenCV","Computer vision", "kinect"]
+                },
+                {
+                    "date": "May 2015 - May 2016",
+                    "title": "IT Support",
+                    "organization": "JNL+ Advertising, Athens, GR",
+                    "extra": "At JNL+ I was a jack of all trades. My responsibilities included being the admin of the Windows Server based company-wide network and an on-premises render farm. I also created mini websites for customers and worked on internal interactive prototypes.",
+                    "tags": ["PHP", "HTML5", "CSS3","Kinect"]
+                },
+                {
+                    "date": "Aug. 2014 - Sep. 2014",
+                    "title": "Artist in Residence",
+                    "organization": "Salzburger Plattform für Medienkunst & Experimentelle Technologien, Salzburg, AT",
+                    "extra": "A two month artist residency in Salzburg, where I designed a CNC machine that can print Buddhist sand mandalas.",
+                    "tags": ["Solidworks", "Arduino"]
+                },
+                {
+                    "date": "Dec. 2011 - Aug. 2013",
+                    "title": "Researcher, Multimedia Technology",
+                    "organization": "Fachhochschule Salzburg, Salzburg, AT",
+                    "extra": "Member of CADET, a project funded by the Austrian government, working on the implementation of a new dataflow programming environment based in C++ and OpenGL for creative applications.",
+                    "tags": [
+                        "C++",
+                        "BOOST",
+                        "QT",
+                        "QT Quick",
+                        "OpenCV",
+                        "Cinder"
+                    ]
+                },
+                {
+                    "date": "Oct. 2012 - Jan. 2013",
+                    "title": "Adjunct Lecturer, Physical Computing",
+                    "organization": "Fachhochschule Salzburg, Salzburg, AT",
+                    "extra": "Taught an introductory course on physical computing to postgraduate students of the fachhochschule. The class was structured around hands-on workshops, where students were encouraged to try things out. The class scored top points among the classes in the curriculum in the evaluation by the students.",
+                    "tags": ["Arduino", "C++"]
+                },
+                {
+                    "date": "Jul. 2011 - Nov. 2011",
+                    "title": "Creative Coding Freelancer",
+                    "organization": "Pentagram, NYC, USA",
+                    "extra": "Lead software developer in Eddie Opara’s team, at the legendary - among graphic designers - Pentagram NYC office. At Pentagram, I created real-time interactive graphics for the large-scale touch-table designed and installed at the SCAD Museum of Art in Savannah, USA. I also worked on smaller projects where I created tools and scripts for Adobe Illustrator to assist designers in the creation of their desired content.",
+                    "tags": ["C++", "OpenGL", "Cinder", "Scriptographer", "Javascript"]
+                },
+                {
+                    "date": "Jun. 2010 - Aug. 2010",
+                    "title": "Creative Coding Intern",
+                    "organization": "Potion Design, NYC, USA",
+                    "extra": "At Potion I worked on procedural real-time graphics for the the award-winning interactive tables and wall installed at the NOVIY Bar Restaurant in Moscow, Russia.",
+                    "tags": ["C++", "OpenGL", "OpenCV", "PoCode"]
+                },
+                {
+                    "date": "Jan. 2008 - Jul. 2009",
+                    "title": "Creative Technologist Freelancer",
+                    "organization": "Self Employed, Athens, GR",
+                    "extra": "Among several projects created the “Marlboro Sensor Glove” for Arc Worldwide, an interactive installation that toured several cities in Greece as part of the promotion for Marlboro cigarettes.",
+                    "tags": ["Processing", "OpenCV", "Solidworks"]
+                },
+                {
+                    "date": "Sep. 2006 - Dec. 2007",
+                    "title": "Software Developer",
+                    "organization": "Kitchenway, Athens, GR",
+                    "extra": "Designed and developed an invoicing system that covered company specific-needs.",
+                    "tags": ["Python", "GTK+"]
+                },
+                {
+                    "date": "Jul. 2005 - May 2006",
+                    "title": "UI Design",
+                    "organization": "Visionmetric, Canterbury, UK",
+                    "extra": "",
+                    "tags": ["Flash", "ActionScript"]
+                },
+                {
+                    "date": "Feb. 2004 - Feb. 2005",
+                    "title": "Corporal",
+                    "organization": "Hellenic Army Artillery",
+                    "extra": "Compulsory 12 month long military service.",
+                    "tags": []
+                },
+                {
+                    "date": "Nov. 2001 - Jan. 2004",
+                    "title": "IT & Supply Assistant",
+                    "organization": "Vende Moda, Athens, GR",
+                    "extra": "Responsible for the correspondance and meetings with the international suppliers of the company",
+                    "tags": []
+                },
+                {
+                    "date": "Oct. 2000 - Jun. 2001",
+                    "title": "Teaching Assistant",
+                    "organization": "SPS - University of Kent, Canterbury, UK",
+                    "extra": "Supported the laboratory and console sessions, corrected and marked student work in the classes of Mathematics (Foundation Year) , Physics Labs (1st Year) and Image Processing (2nd Year).",
+                    "tags": ["Matlab"]
+                }
+            ]
         },
         {
-          "date": "Jun. 1999",
-          "title": "BSc., Physics with Optoelectronics",
-          "organization": "SPS, University of Kent, UK",
-          "extra": "Thesis: Experimental Analysis of Photographic Shutters and Flash Synchronization in Commercial Cameras",
-          "tags": []
+            "label": "Awards",
+            "entries": [
+                {
+                    "date": "2013",
+                    "title": "Honorary Mention, Salzburger Landespreis für Medienkunst",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                },
+                {
+                    "date": "2012",
+                    "title": "Communication Arts Annuals, Interactive",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                },
+                {
+                    "date": "2011",
+                    "title": "Annual Design Review, Interactives, I.D. Magazine",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                },
+                {
+                    "date": "2010",
+                    "title": "George E. Athans Scholar, NYU",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                }
+            ]
+        },
+        {
+            "label": "Technical Reviewing",
+            "entries": [
+                {
+                    "date": "Jan. 2013",
+                    "title": "K. Rijnieks, Cinder - Begin Creative Coding, Packt Publishing, 2013",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                }
+            ]
+        },
+        {
+            "label": "Festivals & Shows",
+            "entries": [
+                {
+                    "date": "2011",
+                    "title": "Avgo, 3rd Ward Show, NYC, USA",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                },
+                {
+                    "date": "2011",
+                    "title": "Avgo, ITP Winter Show, NYC, USA",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                },
+                {
+                    "date": "2011",
+                    "title": "(un)sustainable, ITP Winter Show, NYC, USA",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                },
+                {
+                    "date": "2010",
+                    "title": "de:formed, IAC, NYC, USA",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                },
+                {
+                    "date": "2010",
+                    "title": "Latent Light Life, Vimeo World Popup Gallery, NYC, USA",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                },
+                {
+                    "date": "2010",
+                    "title": "People Watching +, Come Out & Play Festival, NYC, USA",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                },
+                {
+                    "date": "2009",
+                    "title": "Runik Cubes, ITP Winter Show, NYC, USA",
+                    "organization": null,
+                    "extra": null,
+                    "tags": null
+                }
+            ]
         }
-      ]
-    },
-    {
-      "label": "Experience",
-      "entries": [
-        {
-          "date": "Nov. 2019 - present",
-          "title": "Front-End Engineer",
-          "organization": "Goodfellas, Athens, GR",
-          "extra": "Freelanced for a few projects of Goodfellas, mainly working on the front-end, creating custom interface elements and flows, using vanilla JS. I really enjoyed experimenting with seamless visual fx using Three.js",
-          "tags": ["THREEJS", "ES6+", "Webpack", "HTML5", "CSS3", "SCSS"]
-        },
-        {
-          "date": "Jul. 2018 - Oct. 2019",
-          "title": "Senior Front-End Engineer",
-          "organization": "11888 giaola, Athens, GR",
-          "extra": "During my time at giaola I led the transition from Grunt to Webpack, introduced StorybookJS and created from scratch Giaola Components using VueJS, SCSS and the principles of atomic design.",
-          "tags": [
-            "ES6+",
-            "Storybook",
-            "VueJS",
-            "Vuex",
-            "HTML5",
-            "CSS3",
-            "SCSS",
-            "Webpack"
-          ]
-        },
-        {
-          "date": "Apr. 2017 - Mar. 2018",
-          "title": "Founder & Technical Director",
-          "organization": "BlockLicense, Athens, GR",
-          "extra": "BlockLicense was a startup incubated at Eurobank's EGG program, focusing on using the Ethereum Blockchain for licensing of digital works. After successfully creating an MVP, we decided to stop BlockLicense due to the fuzzy legal status of cryptocurrencies in Greece.",
-          "tags": [
-            "Ethereum",
-            "Blockchain",
-            "Solidity",
-            "VueJS",
-            "HTML5",
-            "CSS3",
-            "Webpack",
-            "Electron"
-          ]
-        },
-        {
-          "date": "Jun. 2016 - Mar. 2017",
-          "title": "Creative Coder & Maker",
-          "organization": "The Office for Experimental Media, Athens, GR",
-          "extra": "Self Employed - Freelancing",
-          "tags": ["C++", "OpenGL", "Cinder", "Arduino"]
-        },
-        {
-          "date": "May 2015 - May 2016",
-          "title": "IT Support",
-          "organization": "JNL+ Advertising, Athens, GR",
-          "extra": "",
-          "tags": ["PHP", "HTML5", "CSS3"]
-        },
-        {
-          "date": "Aug. 2014 - Sep. 2014",
-          "title": "Artist in Residence",
-          "organization": "Salzburger Plattform für Medienkunst & Experimentelle Technologien, Salzburg, AT",
-          "extra": "",
-          "tags": ["Solidworks", "Arduino"]
-        },
-        {
-          "date": "Dec. 2011 - Aug. 2013",
-          "title": "Researcher, Multimedia Technology",
-          "organization": "Fachhochschule Salzburg, Salzburg, AT",
-          "extra": "Member of CADET, an FFG funded project, working on the implementation of a new dataflow programming environment for creative applications.",
-          "tags": ["C++", "BOOST", "QT", "QT Quick", "OpenCV", "Cinder"]
-        },
-        {
-          "date": "Oct. 2012 - Jan. 2013",
-          "title": "Adjunct Lecturer, Physical Computing",
-          "organization": "Fachhochschule Salzburg, Salzburg, AT",
-          "extra": "Taught an introductory course in physical computing as part of the Masters curriculum. The class was structured around workshops where students were encouraged to try things out. The class scored top points among the classes in the curriculum in the evaluation by the students.",
-          "tags": ["Arduino", "C++"]
-        },
-        {
-          "date": "Jul. 2011 - Nov. 2011",
-          "title": "Creative Coding Freelancer",
-          "organization": "Pentagram, NYC, USA",
-          "extra": "Lead software developer in Eddie Opara’s team, creating interactive graphics for the large-scale interactive touch-table installed at the SCAD Museum of Art in Savannah, USA.",
-          "tags": ["C++", "OpenGL", "Cinder", "Scriptographer"]
-        },
-        {
-          "date": "Jun. 2010 - Aug. 2010",
-          "title": "Creative Coding Intern",
-          "organization": "Potion Design, NYC, USA",
-          "extra": "Software developer for the award winning interactive tables and wall installed at the NOVIY Bar Restaurant in Moscow, Russia.",
-          "tags": ["C++", "OpenGL", "OpenCV", "PoCode"]
-        },
-        {
-          "date": "Jan. 2008 - Jul. 2009",
-          "title": "Creative Technologist Freelancer",
-          "organization": "Self Employed, Athens, GR",
-          "extra": "Among several projects created the “Marlboro Sensor Glove” for Arc Worldwide, an interactive installation that toured several cities in Greece as part of the promotion for Marlboro cigarettes.",
-          "tags": ["Processing", "OpenCV", "Solidworks"]
-        },
-        {
-          "date": "Sep. 2006 - Dec. 2007",
-          "title": "Software Developer",
-          "organization": "Kitchenway, Athens, GR",
-          "extra": "Designed and developed an invoicing system that covered company specific needs.",
-          "tags": ["Python", "GTK+"]
-        },
-        {
-          "date": "Jul. 2005 - May 2006",
-          "title": "UI Design",
-          "organization": "Visionmetric, Canterbury, UK",
-          "extra": "Designed an alternate interface aimed at children for a proprietary software used in the photorealistic reproduction of faces of humans involved in crimes.",
-          "tags": ["Flash", "ActionScript"]
-        },
-        {
-          "date": "Feb. 2004 - Feb. 2005",
-          "title": "Corporal",
-          "organization": "Hellenic Army Artillery",
-          "extra": "Compulsory 12 month long military service.",
-          "tags": []
-        },
-        {
-          "date": "Nov. 2001 - Jan. 2004",
-          "title": "Supply Assistant",
-          "organization": "Vende Moda, Athens, GR",
-          "extra": "Responsible for the correspondance and meetings with the international suppliers of the company",
-          "tags": []
-        },
-        {
-          "date": "Oct. 2000 - Jun. 2001",
-          "title": "Teaching Assistant",
-          "organization": "SPS - University of Kent, Canterbury, UK",
-          "extra": "Supported the laboratory and console sessions, corrected and marked student work in the classes of Mathematics (Foundation Year) , Physics Labs (1st Year) and Image Processing (2nd Year).",
-          "tags": ["Matlab"]
-        }
-      ]
-    },
-    {
-      "label": "Awards",
-      "entries": [
-        {
-          "date": "2013",
-          "title": "Honorary Mention, Salzburger Landespreis für Medienkunst",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        },
-        {
-          "date": "2012",
-          "title": "Communication Arts Annuals, Interactive",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        },
-        {
-          "date": "2011",
-          "title": "Annual Design Review, Interactives, I.D. Magazine",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        },
-        {
-          "date": "2010",
-          "title": "George E. Athans Scholar, NYU",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        }
-      ]
-    },
-    {
-      "label": "Technical Reviewing",
-      "entries": [
-        {
-          "date": "Jan. 2013",
-          "title": "K. Rijnieks, Cinder - Begin Creative Coding, Packt Publishing, 2013",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        }
-      ]
-    },
-    {
-      "label": "Festivals & Shows",
-      "entries": [
-        {
-          "date": "2011",
-          "title": "Avgo, 3rd Ward Show, NYC, USA",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        },
-        {
-          "date": "2011",
-          "title": "Avgo, ITP Winter Show, NYC, USA",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        },
-        {
-          "date": "2011",
-          "title": "(un)sustainable, ITP Winter Show, NYC, USA",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        },
-        {
-          "date": "2010",
-          "title": "de:formed, IAC, NYC, USA",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        },
-        {
-          "date": "2010",
-          "title": "Latent Light Life, Vimeo World Popup Gallery, NYC, USA",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        },
-        {
-          "date": "2010",
-          "title": "People Watching +, Come Out & Play Festival, NYC, USA",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        },
-        {
-          "date": "2009",
-          "title": "Runik Cubes, ITP Winter Show, NYC, USA",
-          "organization": null,
-          "extra": null,
-          "tags": null
-        }
-      ]
+    ],
+    "skills": {
+        "label": "Skills Matrix",
+        "entries": [
+            {
+                "label": "HTML5",
+                "score": 4
+            },
+            {
+                "label": "CSS3",
+                "score": 4
+            },
+            {
+                "label": "JS",
+                "score": 4
+            },
+            {
+                "label": "VueJS",
+                "score": 4
+            },
+            {
+                "label": "ThreeJS",
+                "score": 3
+            },
+            {
+                "label": "C++",
+                "score": 3.8
+            },
+            {
+                "label": "OpenGL",
+                "score": 3.5
+            },
+            {
+                "label": "Cinder",
+                "score": 3.8
+            },
+            {
+                "label": "OF",
+                "score": 4
+            },
+            {
+                "label": "Processing",
+                "score": 4
+            },
+            {
+                "label": "QT",
+                "score": 4
+            },
+            {
+                "label": "Arduino",
+                "score": 4
+            }
+        ]
     }
-  ],
-  "skills": {
-    "label": "Skills Matrix",
-    "entries": [
-      {
-        "label": "HTML5",
-        "score": 4
-      },
-      {
-        "label": "CSS3",
-        "score": 4
-      },
-      {
-        "label": "JS",
-        "score": 4
-      },
-      {
-        "label": "VueJS",
-        "score": 4
-      },
-      {
-        "label": "ThreeJS",
-        "score": 3
-      },
-      {
-        "label": "C++",
-        "score": 3.8
-      },
-      {
-        "label": "OpenGL",
-        "score": 3.5
-      },
-      {
-        "label": "Cinder",
-        "score": 3.8
-      },
-      {
-        "label": "OF",
-        "score": 4
-      },
-      {
-        "label": "Processing",
-        "score": 4
-      },
-      {
-        "label": "QT",
-        "score": 4
-      },
-      {
-        "label": "Arduino",
-        "score": 4
-      }
-    ]
-  }
 }

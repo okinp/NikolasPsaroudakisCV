@@ -9,23 +9,24 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "vue": "^2.6.6"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.4.0",
-    "@vue/cli-plugin-eslint": "^3.4.0",
-    "@vue/cli-plugin-unit-jest": "^3.4.0",
-    "@vue/cli-service": "^3.4.0",
-    "@vue/eslint-config-prettier": "^4.0.1",
-    "@vue/test-utils": "^1.0.0-beta.20",
+    "@vue/cli-plugin-babel": "^4.4.4",
+    "@vue/cli-plugin-eslint": "^4.4.4",
+    "@vue/cli-plugin-unit-jest": "^4.4.4",
+    "@vue/cli-service": "^4.4.4",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "^1.0.3",
     "babel-core": "7.0.0-bridge.0",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^23.6.0",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "fibers": "^3.1.1",
-    "sass": "^1.16.0",
-    "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21"
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2",
+    "fibers": "^5.0.0",
+    "sass": "^1.26.8",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
   }
 }

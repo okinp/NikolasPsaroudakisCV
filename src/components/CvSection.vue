@@ -2,16 +2,24 @@
   <section class="content">
     <h4>{{ sectionData.label }}</h4>
     <ul>
-      <li v-for="(entry, eIdx) in sectionData.entries" :key="eIdx">
+      <li
+        v-for="(entry, eIdx) in sectionData.entries"
+        :key="eIdx"
+        :style="{ 'page-break-before': eIdx === 15 ? 'always' : 'initial' }"
+      >
         <p class="date">{{ entry.date }}</p>
         <div class="detail">
-          <div v-if="entry.title">{{ entry.title }}</div>
+          <div class="detail__title" v-if="entry.title">{{ entry.title }}</div>
           <div v-if="entry.organization">{{ entry.organization }}</div>
           <span v-if="entry.extra">{{ entry.extra }}</span>
           <div class="tags" v-if="entry.tags">
-            <span class="tag" v-for="(tag, tIdx) in entry.tags" :key="tIdx">{{
-              tag
-            }}</span>
+            <span
+              class="tag"
+              v-for="(tag, tIdx) in entry.tags.sort()"
+              :key="tIdx"
+            >
+              {{ tag }}
+            </span>
           </div>
         </div>
       </li>
@@ -36,23 +44,26 @@ $color-light: lighten($color, 10%);
 section.content {
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
   h4 {
     text-transform: uppercase;
     font-size: 0.85em;
     color: $color;
-    margin-top: 0;
-    margin-bottom: 0.8em;
+    margin-top: 1rem;
+    margin-bottom: 1.8em;
   }
   ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 0.4em;
+    margin-top: 0.2em;
+    margin-bottom: 0px;
     li {
       display: flex;
       align-items: flex-start;
       justify-content: flex-start;
       font-size: 0.8em;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
+      margin-top: 14px;
       page-break-before: auto;
       page-break-inside: avoid;
       p.date {
@@ -67,9 +78,12 @@ section.content {
         max-width: 78%;
         display: flex;
         flex-direction: column;
+        > .detail__title {
+          // font-weight: semi-bold;
+        }
         > span {
           margin-top: 5px;
-          color: $color-light;
+          color: $color;
           font-size: 0.95em;
         }
       }
@@ -79,11 +93,11 @@ section.content {
 .tags {
   display: flex;
   flex-wrap: wrap;
-  margin: 6px 0;
+  margin: 7px 0 0 -3px;
   span.tag {
     box-sizing: border-box;
     padding: 1px 2px;
-    margin-right: 5px;
+    margin: 3px;
     border-radius: 3px;
     color: $color-dark;
     background-color: lighten($color-light, 50%);

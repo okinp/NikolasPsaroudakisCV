@@ -12,8 +12,8 @@
         <li>(+30) 6945297001</li>
       </ul>
     </header>
-    <cv-section :sectionData="cvdata.sections[0]" />
     <cv-section :sectionData="cvdata.sections[1]" />
+    <cv-section :sectionData="cvdata.sections[0]" />
     <cv-skills-matrix :dataProp="cvdata.skills" class="breakProper" />
     <cv-section :sectionData="cvdata.sections[2]" class="breakProper" />
     <cv-section :sectionData="cvdata.sections[3]" class="breakProper" />
@@ -58,6 +58,7 @@ $color-light: lighten($color, 10%);
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
+  color: #4d5357;
 }
 
 body {
