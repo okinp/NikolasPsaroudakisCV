@@ -8,21 +8,27 @@
                     "title": "MPS, Interactive Telecommunications",
                     "organization": "Tisch School of the Arts, NYU, USA",
                     "extra": "Focus: Creative Coding, Interactive Installations, Physical Computing, Media Art",
-                    "tags": []
+                    "tags": [],
+                    "id": "2",
+                    "type": "education"
                 },
                 {
                     "date": "Jun. 2001",
                     "title": "MSc. by Research, Physics",
                     "organization": "SPS, University of Kent, UK",
                     "extra": "Thesis: Human Face Detection in Color Images Using Gaussian Scale-Space Theory and Hidden Markov Models",
-                    "tags": []
+                    "tags": [],
+                    "id": "1",
+                    "type": "education"
                 },
                 {
                     "date": "Jun. 1999",
                     "title": "BSc., Physics with Optoelectronics",
                     "organization": "SPS, University of Kent, UK",
                     "extra": "Thesis: Experimental Analysis of Photographic Shutters and Flash Synchronization in Commercial Cameras",
-                    "tags": []
+                    "tags": [],
+                    "id": "0",
+                    "type": "education"
                 }
             ]
         },
@@ -42,7 +48,9 @@
                         "HTML5",
                         "CSS3",
                         "LESS"
-                    ]
+                    ],
+                    "id": 16,
+                    "type": "work"
                 },
                 {
                     "date": "Nov. 2019 - Apr. 2020",
@@ -57,7 +65,9 @@
                         "HTML5",
                         "CSS3",
                         "SCSS"
-                    ]
+                    ],
+                    "id": 15,
+                    "type": "work"
                 },
                 {
                     "date": "Jul. 2018 - Oct. 2019",
@@ -73,7 +83,9 @@
                         "CSS3",
                         "SCSS",
                         "Webpack"
-                    ]
+                    ],
+                    "id": 14,
+                    "type": "work"
                 },
                 {
                     "date": "Apr. 2017 - Mar. 2018",
@@ -91,28 +103,36 @@
                         "ES6+",
                         "Webpack",
                         "Electron"
-                    ]
+                    ],
+                    "id": 13,
+                    "type": "work"
                 },
                 {
                     "date": "Jun. 2016 - Mar. 2017",
                     "title": "Creative Coder & Maker",
                     "organization": "The Office for Experimental Media, Athens, GR",
                     "extra": "Self Employed - I  collaborated with a few interactive media artists, creating custom electronics and software that brought their works to life. By sensing the environment and controlling audio visual equipment, rich experiences were created such as video projections with interactive real-time graphics.",
-                    "tags": ["C++", "OpenGL", "Cinder", "Arduino", "OpenCV","Computer vision", "kinect"]
+                    "tags": ["C++", "OpenGL", "Cinder", "Arduino", "OpenCV","Computer vision", "kinect"],
+                    "id": 12,
+                    "type": "work"
                 },
                 {
                     "date": "May 2015 - May 2016",
                     "title": "IT Support",
                     "organization": "JNL+ Advertising, Athens, GR",
                     "extra": "At JNL+ I was a jack of all trades. My responsibilities included being the admin of the Windows Server based company-wide network and an on-premises render farm. I also created mini websites for customers and worked on internal interactive prototypes.",
-                    "tags": ["PHP", "HTML5", "CSS3","Kinect"]
+                    "tags": ["PHP", "HTML5", "CSS3","Kinect"],
+                    "id": 11,
+                    "type": "work"
                 },
                 {
                     "date": "Aug. 2014 - Sep. 2014",
                     "title": "Artist in Residence",
                     "organization": "Salzburger Plattform für Medienkunst & Experimentelle Technologien, Salzburg, AT",
                     "extra": "A two month artist residency in Salzburg, where I designed a CNC machine that can print Buddhist sand mandalas.",
-                    "tags": ["Solidworks", "Arduino"]
+                    "tags": ["Solidworks", "Arduino"],
+                    "id": 10,
+                    "type": "work"
                 },
                 {
                     "date": "Dec. 2011 - Aug. 2013",
@@ -126,70 +146,89 @@
                         "QT Quick",
                         "OpenCV",
                         "Cinder"
-                    ]
+                    ],
+                    "id": 9,
+                    "type": "work"
                 },
                 {
                     "date": "Oct. 2012 - Jan. 2013",
                     "title": "Adjunct Lecturer, Physical Computing",
                     "organization": "Fachhochschule Salzburg, Salzburg, AT",
                     "extra": "Taught an introductory course on physical computing to postgraduate students of the fachhochschule. The class was structured around hands-on workshops, where students were encouraged to try things out. The class scored top points among the classes in the curriculum in the evaluation by the students.",
-                    "tags": ["Arduino", "C++"]
+                    "tags": ["Arduino", "C++"],
+                    "id": "work-08"
                 },
                 {
                     "date": "Jul. 2011 - Nov. 2011",
                     "title": "Creative Coding Freelancer",
                     "organization": "Pentagram, NYC, USA",
                     "extra": "Lead software developer in Eddie Opara’s team, at the legendary - among graphic designers - Pentagram NYC office. At Pentagram, I created real-time interactive graphics for the large-scale touch-table designed and installed at the SCAD Museum of Art in Savannah, USA. I also worked on smaller projects where I created tools and scripts for Adobe Illustrator to assist designers in the creation of their desired content.",
-                    "tags": ["C++", "OpenGL", "Cinder", "Scriptographer", "Javascript"]
+                    "tags": ["C++", "OpenGL", "Cinder", "Scriptographer", "Javascript"],
+                    "id": 7,
+                    "type": "work"
                 },
                 {
                     "date": "Jun. 2010 - Aug. 2010",
                     "title": "Creative Coding Intern",
                     "organization": "Potion Design, NYC, USA",
                     "extra": "At Potion I worked on procedural real-time graphics for the the award-winning interactive tables and wall installed at the NOVIY Bar Restaurant in Moscow, Russia.",
-                    "tags": ["C++", "OpenGL", "OpenCV", "PoCode"]
+                    "tags": ["C++", "OpenGL", "OpenCV", "PoCode"],
+                    "id": 6,
+                    "type": "work"
                 },
                 {
                     "date": "Jan. 2008 - Jul. 2009",
                     "title": "Creative Technologist Freelancer",
                     "organization": "Self Employed, Athens, GR",
                     "extra": "Among several projects created the “Marlboro Sensor Glove” for Arc Worldwide, an interactive installation that toured several cities in Greece as part of the promotion for Marlboro cigarettes.",
-                    "tags": ["Processing", "OpenCV", "Solidworks"]
+                    "tags": ["Processing", "OpenCV", "Solidworks"],
+                    "id": 5,
+                    "type": "work"
                 },
                 {
                     "date": "Sep. 2006 - Dec. 2007",
                     "title": "Software Developer",
                     "organization": "Kitchenway, Athens, GR",
                     "extra": "Designed and developed an invoicing system that covered company specific-needs.",
-                    "tags": ["Python", "GTK+"]
+                    "tags": ["Python", "GTK+"],
+                    "id": 4,
+                    "type": "work"
                 },
                 {
                     "date": "Jul. 2005 - May 2006",
                     "title": "UI Design",
                     "organization": "Visionmetric, Canterbury, UK",
                     "extra": "",
-                    "tags": ["Flash", "ActionScript"]
+                    "tags": ["Flash", "ActionScript"],
+                    "id": 3,
+                    "type": "work"
                 },
                 {
                     "date": "Feb. 2004 - Feb. 2005",
                     "title": "Corporal",
                     "organization": "Hellenic Army Artillery",
                     "extra": "Compulsory 12 month long military service.",
-                    "tags": []
+                    "tags": [],
+                    "id": 2,
+                    "type": "work"
                 },
                 {
                     "date": "Nov. 2001 - Jan. 2004",
                     "title": "IT & Supply Assistant",
                     "organization": "Vende Moda, Athens, GR",
                     "extra": "Responsible for the correspondance and meetings with the international suppliers of the company",
-                    "tags": []
+                    "tags": [],
+                    "id": 1,
+                    "type": "work"
                 },
                 {
                     "date": "Oct. 2000 - Jun. 2001",
                     "title": "Teaching Assistant",
                     "organization": "SPS - University of Kent, Canterbury, UK",
                     "extra": "Supported the laboratory and console sessions, corrected and marked student work in the classes of Mathematics (Foundation Year) , Physics Labs (1st Year) and Image Processing (2nd Year).",
-                    "tags": ["Matlab"]
+                    "tags": ["Matlab"],
+                    "id": 0,
+                    "type": "work"
                 }
             ]
         },
@@ -201,28 +240,35 @@
                     "title": "Honorary Mention, Salzburger Landespreis für Medienkunst",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 3,
+                    "type": "award"
                 },
                 {
                     "date": "2012",
                     "title": "Communication Arts Annuals, Interactive",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 2,
+                    "type": "award"
                 },
                 {
                     "date": "2011",
                     "title": "Annual Design Review, Interactives, I.D. Magazine",
                     "organization": null,
                     "extra": null,
-                    "tags": null
-                },
+                    "tags": null,
+                    "id": 1,
+                    "type": "award"                },
                 {
                     "date": "2010",
                     "title": "George E. Athans Scholar, NYU",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 0,
+                    "type": "award"
                 }
             ]
         },
@@ -234,7 +280,9 @@
                     "title": "K. Rijnieks, Cinder - Begin Creative Coding, Packt Publishing, 2013",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 0,
+                    "type": "other"
                 }
             ]
         },
@@ -246,49 +294,63 @@
                     "title": "Avgo, 3rd Ward Show, NYC, USA",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 6,
+                    "type": "show"
                 },
                 {
                     "date": "2011",
                     "title": "Avgo, ITP Winter Show, NYC, USA",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 5,
+                    "type": "show"
                 },
                 {
                     "date": "2011",
                     "title": "(un)sustainable, ITP Winter Show, NYC, USA",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 4,
+                    "type": "show"
                 },
                 {
                     "date": "2010",
                     "title": "de:formed, IAC, NYC, USA",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 3,
+                    "type": "show"
                 },
                 {
                     "date": "2010",
                     "title": "Latent Light Life, Vimeo World Popup Gallery, NYC, USA",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 2,
+                    "type": "show"
                 },
                 {
                     "date": "2010",
                     "title": "People Watching +, Come Out & Play Festival, NYC, USA",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 1,
+                    "type": "show"
                 },
                 {
                     "date": "2009",
                     "title": "Runik Cubes, ITP Winter Show, NYC, USA",
                     "organization": null,
                     "extra": null,
-                    "tags": null
+                    "tags": null,
+                    "id": 0,
+                    "type": "show"
                 }
             ]
         }

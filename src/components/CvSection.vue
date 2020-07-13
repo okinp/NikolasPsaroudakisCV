@@ -5,7 +5,7 @@
       <li
         v-for="(entry, eIdx) in sectionData.entries"
         :key="eIdx"
-        :style="{ 'page-break-before': eIdx === 15 ? 'always' : 'initial' }"
+        :style="getPageBreaks(entry)"
       >
         <p class="date">{{ entry.date }}</p>
         <div class="detail">
@@ -33,6 +33,21 @@ export default {
     sectionData: {
       type: Object,
       default: () => ({})
+    }
+  },
+  methods: {
+    getPageBreaks({ id, type }) {
+      const ID = type + "-" + id;
+      let style = {
+        "page-break-before": "auto",
+        "page-break-after": "auto",
+        "page-break-inside": "avoid"
+      };
+
+      if (ID === "work-1") {
+        style = { ...style, "page-break-before": "always" };
+      }
+      return style;
     }
   }
 };
