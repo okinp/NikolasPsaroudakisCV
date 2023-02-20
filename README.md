@@ -1,36 +1,7 @@
-# NikolasPsaroudakisCV
-CSS based Curriculum Vitae that prints nicely to pdf. Content is read from JSON
-Example: https://nikolaspsaroudakis.com/assets/NikolasPsaroudakisCV.pdf
+# Vue 3 + Vite
 
-## Project setup
-```
-yarn install
-```
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Recommended IDE Setup
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).

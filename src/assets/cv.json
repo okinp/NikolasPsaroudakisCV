@@ -39,16 +39,15 @@
           "date": "Jul. 2021 - present",
           "title": "Senior Front-End Developer",
           "organization": "Rokoko, Athens, GR ",
-          "extra": "At Rokoko I created the RokokoCare portal, a web application for physiotherapists to manage their patients and corresponding exercise programs that are then tracked and evaluated using skeleton tracking via a mobile app. At Rokoko I also worked on several proof-of-concept projects to evaluate Blazor for WebAssembly as a way to bring our C# motion capture codebase to the Web and render mocap scenes using ThreeJS",
+          "extra": "At Rokoko I've worked on several front-end projects including Rokoko Video, a ReactJS based online video capture, trim and mocap export tool as well as Rokoko Care, a Vue based health related webapp.",
           "tags": [
-            "Blazor",
+            "Typescript",
             "CSS3",
-            "ES6+",
-            "HTML5",
+            "ReactJS",
+            "NextJS",
             "NuxtJS",
             "ThreeJS",
-            "VueJS",
-            "WebAssembly"
+            "VueJS"
           ],
           "id": 17,
           "type": "work"
