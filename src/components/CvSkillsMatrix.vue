@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import CvSkillScore from "./CvSkillScore";
+import CvSkillScore from "./CvSkillScore.vue";
 export default {
     name: "cv-skills-matrix",
     components: {

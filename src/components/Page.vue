@@ -22,8 +22,8 @@
 
 <script>
 import cvdata from "../assets/cv.json";
-import CvSection from "./CvSection";
-import CvSkillsMatrix from "./CvSkillsMatrix";
+import CvSection from "./CvSection.vue";
+import CvSkillsMatrix from "./CvSkillsMatrix.vue";
 export default {
   name: "page",
   components: {
@@ -88,7 +88,7 @@ body {
     color: $color;
     p.name {
       text-transform: uppercase;
-      font-family: "Roboto";
+      // font-family: "Roboto";
       font-weight: 800;
       font-size: 1em;
       line-height: 0.9em;
